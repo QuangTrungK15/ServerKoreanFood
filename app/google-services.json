@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "678718669536",
+    "firebase_url": "https://koreanfood-52e27.firebaseio.com",
+    "project_id": "koreanfood-52e27",
+    "storage_bucket": "koreanfood-52e27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678718669536:android:65b26e91b86cd301",
+        "android_client_info": {
+          "package_name": "com.example.dell.orderkoreanfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678718669536-ck8f7n46oc23o96ikpivrdldafr4j72a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.orderkoreanfood",
+            "certificate_hash": "95def4e8754db65356ee34254d8729d5e7edbb66"
+          }
+        },
+        {
+          "client_id": "678718669536-d1i7rka85k2jt4mnn6n29g26lgg9ceem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0efH4grrQ-ljKs3QL5uyjxV7TLrRbiUY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678718669536-d1i7rka85k2jt4mnn6n29g26lgg9ceem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678718669536:android:e145dd0f9b3dfd63",
+        "android_client_info": {
+          "package_name": "com.example.dell.serverkoreanfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678718669536-ltgst4smbs9pooabckps4eogv68nsdu8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.serverkoreanfood",
+            "certificate_hash": "95def4e8754db65356ee34254d8729d5e7edbb66"
+          }
+        },
+        {
+          "client_id": "678718669536-d1i7rka85k2jt4mnn6n29g26lgg9ceem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0efH4grrQ-ljKs3QL5uyjxV7TLrRbiUY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678718669536-d1i7rka85k2jt4mnn6n29g26lgg9ceem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
