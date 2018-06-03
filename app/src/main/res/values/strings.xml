@@ -9,4 +9,13 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+
+    <string-array name="planets_array">
+        <item>Placed</item>
+        <item>On My Way</item>
+        <item>Shipped</item>
+    </string-array>
+
+
 </resources>

@@ -74,6 +74,9 @@ public class Request {
         this.foods = foods;
     }
 
+    public void setStatus(String status) {
+        this.status = status;
+    }
 
     public String getStatus() {
         return status;
