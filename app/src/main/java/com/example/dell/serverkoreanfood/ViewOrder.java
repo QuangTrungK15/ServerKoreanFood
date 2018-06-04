@@ -83,7 +83,7 @@ public class ViewOrder extends AppCompatActivity {
     @Override
     public boolean onContextItemSelected(MenuItem item) {
         if(item.getTitle().equals(Common.DELETE)) {
-            //deleteFood(adapter.getRef(item.getItemId()).getKey());
+            deleteBill(adapter.getRef(item.getItemId()).getKey());
 
             Toast.makeText(this,"Deleted",Toast.LENGTH_SHORT).show();
         }
@@ -96,6 +96,10 @@ public class ViewOrder extends AppCompatActivity {
         }
 
         return true;
+    }
+
+    private void deleteBill(String key) {
+        requests.child(key).removeValue();
     }
 
     private void showUpdateDialog(final String key, final Request request) {
