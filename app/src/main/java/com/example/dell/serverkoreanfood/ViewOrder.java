@@ -92,7 +92,7 @@ public class ViewOrder extends AppCompatActivity {
 
 
             showUpdateDialog(adapter.getRef(item.getItemId()).getKey(),adapter.getItem(item.getItemId()));
-            Toast.makeText(this,"Updated",Toast.LENGTH_SHORT).show();
+
         }
 
         return true;
@@ -166,6 +166,7 @@ public class ViewOrder extends AppCompatActivity {
 
                     request.setStatus(nowStatus);
                     requests.child(key).setValue(request);
+                    Toast.makeText(ViewOrder.this,"Updated",Toast.LENGTH_SHORT).show();
             }
         });
         alertDialog.setNegativeButton("NO", new DialogInterface.OnClickListener() {
